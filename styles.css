@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+#weather-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#weather-form label {
+    margin-right: 10px;
+}
+
+#weather-form input[type="text"] {
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#weather-form button {
+    height: 30px;
+    background-color: lightblue; /* Add a background color to the button */
+    border: none; /* Remove the default button border */
+    color: white; /* Change the button text color to white */
+}
+
+#weather-data {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.weather-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
